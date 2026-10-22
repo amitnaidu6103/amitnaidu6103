@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230" viewBox="0 0 560 230">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#130b12"/><stop offset=".55" stop-color="#29111e"/><stop offset="1" stop-color="#501b35"/></linearGradient>
+ <linearGradient id="glass"><stop stop-color="#ffffff" stop-opacity=".13"/><stop offset="1" stop-color="#ffffff" stop-opacity=".025"/></linearGradient>
+ <linearGradient id="line"><stop stop-color="#a62b60" stop-opacity=".2"/><stop offset=".5" stop-color="#f0b9d0"/><stop offset="1" stop-color="#a62b60" stop-opacity=".2"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="5" y="5" width="550" height="220" rx="22" fill="url(#bg)" stroke="#d987ac" stroke-opacity=".55"/>
+<rect x="15" y="15" width="530" height="200" rx="17" fill="url(#glass)" stroke="#fff" stroke-opacity=".12"/>
+<circle cx="485" cy="52" r="42" fill="#a52b61" opacity=".2"><animate attributeName="r" values="38;47;38" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="485" cy="52" r="30" fill="none" stroke="#f0b9d0" stroke-opacity=".45"><animateTransform attributeName="transform" type="rotate" from="0 485 52" to="360 485 52" dur="31s" repeatCount="indefinite"/></circle>
+<text x="32" y="43" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3" fill="#f0b9d0">PROJECT  /  03</text>
+<text x="30" y="98" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#fff5fa">IoT Gate</text>
+<text x="32" y="128" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#e8cbd8">Remote gate control and monitoring concept</text>
+<rect x="30" y="151" width="320" height="30" rx="15" fill="#ffffff" fill-opacity=".07" stroke="#d987ac" stroke-opacity=".35"/>
+<text x="44" y="171" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#f5c4db">IoT  •  AUTOMATION  •  MONITORING</text>
+<g transform="translate(450 143)" stroke="#f0b9d0" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-18 18V-16h36v34M-10 18V-8h20v26"/><path d="M-24 -20q24 -20 48 0"/></g>
+<path d="M30 200 H520" stroke="url(#line)" stroke-width="2" stroke-dasharray="8 10"><animate attributeName="stroke-dashoffset" from="0" to="-90" dur="5s" repeatCount="indefinite"/></path>
+<circle cx="518" cy="200" r="3" fill="#f0b9d0" filter="url(#glow)"/>
+</svg>

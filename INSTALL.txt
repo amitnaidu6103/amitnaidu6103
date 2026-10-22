@@ -1,0 +1,13 @@
+# GitHub Profile Deluxe — install
+
+1. Download and extract `amit-github-profile-deluxe.zip`.
+2. Open your existing profile repository: https://github.com/amitnaidu6103/amitnaidu6103
+3. Replace the repository-root `README.md` with this package's `README.md`.
+4. Upload the complete `assets/` folder (including `hero.svg` and all `project-*.svg` files) to the same repository.
+5. Commit the changes to `main` and refresh your GitHub profile.
+
+## Customization notes
+- The README uses Markdown, shields.io badges, Skill Icons, and repository-local SVG cards.
+- The SVG cards have animated accents and a glass-inspired appearance. GitHub README pages do not permit arbitrary JavaScript or custom CSS hover interactions, so the effect is achieved through animated SVG artwork and linked image cards rather than a custom webpage.
+- Update the LinkedIn URL placeholder in `README.md` before publishing.
+- Project summaries are based on the repository descriptions currently available. Keep the technology badges only where they accurately reflect your work.
